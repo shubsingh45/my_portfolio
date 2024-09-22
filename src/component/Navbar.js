@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import {  Dropdown } from 'flowbite-react'
 import { FaUser } from 'react-icons/fa'
+import { AiOutlineMore } from 'react-icons/ai'
 
 const Navbar = () => {
     const location = useLocation();
@@ -24,7 +25,7 @@ const Navbar = () => {
                     })}>Contact Me</NavLink>
                 </div>
                 <div className=" lg:hidden md:hidden block">
-                <Dropdown arrowIcon={false} inline label={<FaUser />} className='bg-white w-44 '>
+                <Dropdown arrowIcon={false} inline label={<AiOutlineMore className=' w-9 text-gray-600 font-bold  h-8 '/>} className='bg-white w-44 '>
             <Link to={'/'} className=' cursor-pointer '>
                 <Dropdown.Item
                     className={location.pathname === '/' ? '  bg-slate-300' : ''} 
