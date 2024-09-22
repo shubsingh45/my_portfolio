@@ -7,7 +7,7 @@ import linkdin from '../assests/linkdin.webp'
 import email from '../assests/email.webp'
 import { FaGithub } from "react-icons/fa";
 import con1 from '../assests/con1.png'
-import shubham_cv from '../assests/shubham cv.pdf'
+import shubham_cv from '../assests/shubham_cv.pdf'
 
 const Contact = () => {
 
@@ -83,7 +83,7 @@ const Contact = () => {
                         </a>
                     </div>
 
-                        <a href={shubham_cv} download="shubham cv.pdf" className=" flex justify-center items-center w-full h-24">
+                        <a href={shubham_cv} download="shubham_cv.pdf" className=" flex justify-center items-center w-full h-24">
                             <Button className=' mt-24 flex items-center mb-24  lg:w-[283px] w-[213px] bg-violet-950
                            hover:bg-white h-14 rounded-lg text-white hover:text-violet-950 hover:border-violet-950  border-2 transition-colors duration-300 ease-in-out'>
                              <h1 className=" lg:text-2xl text-xl">See &nbsp;  My &nbsp;Resume</h1>   
